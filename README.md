@@ -11,5 +11,3 @@ The goal of this project is to practice Infrastructure as Code (IaC) using Terra
 - Terraform
 - Oracle Cloud Infrastructure (OCI)
 - HCL (HashiCorp Configuration Language)
-
-## 📂 Project Structure
