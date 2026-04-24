@@ -12,17 +12,19 @@ This project demonstrates how to:
 
 ## Project Structure
 
+```
 .
 ├── main.tf              # Root configuration (calls modules)
-├── variables.tf        # Root input variables
-├── outputs.tf         # Root outputs
-├── terraform.tfvars    # Variable values
-├── versions.tf         # Terraform and provider versions
+├── variables.tf         # Root input variables
+├── outputs.tf           # Root outputs
+├── terraform.tfvars     # Variable values
+├── versions.tf          # Terraform and provider versions
 └── modules/
     └── network/
-        ├── main.tf     # Network resources (VCN, subnets, etc.)
+        ├── main.tf      # Network resources (VCN, subnets, etc.)
         ├── variables.tf
         ├── outputs.tf
+```
 
 ## Technologies Used
 
